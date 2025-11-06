@@ -112,13 +112,14 @@
 
     <h2>4. Third-Party Services</h2>
 
-    <h3>4.1 Jitsi Meet SDK</h3>
-    <p>Our app uses <strong>Jitsi Meet SDK</strong> for video conferencing:</p>
+    <h3>4.1 WebRTC & Janus Gateway Server</h3>
+    <p>Our app uses <strong>native WebRTC with Janus Gateway</strong> for video conferencing:</p>
     <ul>
-        <li><strong>What They Do:</strong> Provide video/audio transmission infrastructure</li>
+        <li><strong>What They Do:</strong> Provide video/audio signaling and media routing infrastructure</li>
+        <li><strong>Server:</strong> Janus Gateway server (wss://webrtc.merge.ws:8989)</li>
         <li><strong>What They Access:</strong> Video, audio, and meeting metadata during active calls</li>
-        <li><strong>Privacy Policy:</strong> <a href="https://jitsi.org/security/" target="_blank">https://jitsi.org/security/</a></li>
-        <li><strong>Encryption:</strong> End-to-end encryption for calls</li>
+        <li><strong>Privacy Policy:</strong> <a href="https://janus.conf.meetecho.com/" target="_blank">https://janus.conf.meetecho.com/</a></li>
+        <li><strong>Encryption:</strong> WebRTC DTLS-SRTP encryption for all media streams</li>
     </ul>
 
     <div class="highlight">
@@ -170,7 +171,7 @@
     <div class="contact">
         <h2>10. Contact Us</h2>
         <p>Questions about this Privacy Policy?</p>
-        <p><strong>Email:</strong> privacy@nanosystems.app</p>
+        <p><strong>Email:</strong> info@nanosystem.eg</p>
         <p><strong>App Name:</strong> Prof Dr Mahmoud Selim - Video Conferencing</p>
         <p><strong>Developer:</strong> NanoSystems</p>
         <p>We will respond to privacy requests within 30 days.</p>
